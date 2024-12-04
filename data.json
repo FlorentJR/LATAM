@@ -1,0 +1,93 @@
+{
+    "journal": {
+      "nomJournal": "Explorez l'Amérique du Sud",
+      "phraseAccroche": "Le guide ultime pour découvrir les trésors du continent sud-américain",
+      "texteAppelAction": "Inscrivez-vous à notre newsletter pour des conseils exclusifs",
+      "articlePrincipal": {
+        "titre": "Machu Picchu : L'incontournable des Andes péruviennes",
+        "description": "Découvrez l'une des sept merveilles du monde et plongez dans l'histoire fascinante des Incas.",
+        "date": "1er Décembre 2024",
+        "theme": "Histoire & Culture",
+        "image": "images/PEROU.jpg"
+      },
+      "articles": [
+        {
+          "titre": "Patagonie : Entre glaciers et montagnes",
+          "date": "28 Novembre 2024",
+          "theme": "Nature & Aventure",
+          "image": "images/ARGENTINE.jpg"
+        },
+        {
+          "titre": "Cartagena : La perle de Colombie",
+          "date": "20 Novembre 2024",
+          "theme": "Architecture & Culture",
+          "image": "images/Cartagena.jpg"
+        },
+        {
+          "titre": "Le Salar d'Uyuni : Une mer de sel unique au monde",
+          "date": "15 Novembre 2024",
+          "theme": "Paysages Incontournables",
+          "image": "images/Uyuni.jpg"
+        },
+        {
+          "titre": "L'Amazonie : Plongée au cœur de la plus grande forêt tropicale",
+          "date": "10 Novembre 2024",
+          "theme": "Faune & Flore",
+          "image": "images/Amazonie.jpg"
+        },
+        {
+          "titre": "Rio de Janeiro : Entre plages et samba",
+          "date": "5 Novembre 2024",
+          "theme": "Vie Urbaine & Loisirs",
+          "image": "images/BRESIL.jpg"
+        }
+      ],
+      "themes": [
+        {
+          "nom": "Histoire & Culture",
+          "description": "Explorez les sites historiques et la richesse culturelle du continent."
+        },
+        {
+          "nom": "Nature & Aventure",
+          "description": "Partez à la découverte des merveilles naturelles et des activités en plein air."
+        },
+        {
+          "nom": "Architecture & Culture",
+          "description": "Plongez dans les villes iconiques et leur patrimoine unique."
+        },
+        {
+          "nom": "Paysages Incontournables",
+          "description": "Des lieux spectaculaires qui vous couperont le souffle."
+        },
+        {
+          "nom": "Faune & Flore",
+          "description": "Découvrez la biodiversité incroyable de l'Amérique du Sud."
+        },
+        {
+          "nom": "Vie Urbaine & Loisirs",
+          "description": "Les meilleures villes pour profiter de la culture et des loisirs locaux."
+        }
+      ],
+      "auteurs": [
+        {
+          "prenom": "Marie",
+          "typeExperience": "Guide culturelle",
+          "presentation": "Passionnée par l'histoire et les traditions sud-américaines, je partage mes connaissances pour enrichir vos voyages.",
+          "image": "images/Marie.jpg"
+        },
+        {
+          "prenom": "Nico",
+          "typeExperience": "Explorateur de nature",
+          "presentation": "Spécialiste des paysages d'Amérique du Sud, je vous guide à travers les endroits les plus spectaculaires du continent.",
+          "image": "images/Nico.jpg"
+        
+        },
+        {
+          "prenom": "Moana",
+          "typeExperience": "Photographe de voyage",
+          "presentation": "Avec mon appareil photo, je capture la beauté et l'âme des lieux emblématiques d'Amérique du Sud.",
+          "image": "images/Moana.jpg"
+        }
+      ]
+    }
+  }

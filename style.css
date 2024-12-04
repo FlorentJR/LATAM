@@ -1,0 +1,237 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html, body{
+   font-family: 'Poppins', sans-serif;
+  background-color: lightgray;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+h1, h2{
+   margin: 0;
+   
+}
+
+h3, h4, h5, h6{
+   margin: 0;
+   font-weight: normal;
+}
+
+p{
+   margin: 0;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+padding: 16px;
+gap: 24px;
+background-color: white;
+}
+
+ul{
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   gap: 24px;
+   padding: 10px;
+   
+}
+
+main{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   margin: 0 2%;
+}
+
+.title{
+margin: 5% 0;
+font-weight:900;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 100%;
+    object-fit: cover;
+ }
+
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:8px;
+ 
+ }
+
+ .button{
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 8px 16px;
+   border-radius: 8px;
+   border: solid 2.5px #8005F2;
+   text-decoration: none;
+   font-weight: 500;
+   transition: all .3s ease-in-out;
+}
+.buttons-container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 16px;
+}
+
+.button:hover{
+   border: solid 2.5px #ba79f8;
+}
+
+.primary{
+   background: #8005f2;
+   color: white;
+}
+
+.primary:hover{
+   background: #ba79f8;
+}
+
+ .theme-title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: medium;
+    font-weight: normal;
+ }
+ 
+ .card-image {
+    height: 180px;
+ }
+ 
+ #introContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+
+ #introImage img{
+   object-fit:cover;
+   width: 100%;
+   height: 400px;
+
+ }
+
+ .articleContainer{
+   display: flex;
+   flex-direction: row;
+   border: solid 1px black;
+ }
+
+.articleText{
+   display: flex;
+   flex-direction: column;
+   align-items: baseline;
+   width: 100%;
+   padding: 8px 0 0 24px;
+
+}
+.articleContainer img{
+   object-fit:cover;
+   width: 480px;
+   height: 200px;
+}
+
+
+
+#mainArticleContainer{
+
+}
+
+
+#autresArticlesSection{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+#autresArticlesContainer{
+display: flex;
+flex-direction: column;
+gap:24px;
+padding: 24px;
+}
+
+#auteursSection{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+}
+
+#auteursContainer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 24px;
+}
+.auteurCard{
+   width: 25%;
+   height: auto;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 16px;
+   overflow: hidden;
+   transition: all .3s ease-in-out;
+   -webkit-box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
+   -moz-box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
+   box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
+   padding: 16px;
+}
+
+.auteurCard p{
+   padding: 8px 0 0 0;
+}
+.auteurCard:hover{
+   transform: scale(1.1)
+
+}
+
+.avatarAuteur{
+   width: 100px;
+   height: 100px;
+   border: solid 2px black;
+   border-radius: 100%;
+   object-fit: cover;
+
+}
+
+
+footer{
+   padding: 16px;
+   margin: 64px 0 0 0;
+   background-color: white;
+}
+#copyrights{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   height: 100px;
+   margin-bottom: 0;
+
+
+}
