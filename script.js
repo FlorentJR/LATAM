@@ -11,7 +11,14 @@ function getData() {
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI ! 
       
+// NAV
+let logo=document.getElementById('logo');
+let nomPage=data.journal.nomJournal;
 
+logo.insertAdjacentHTML('beforeend',`<a href="#">
+           <img src="images/logo globe.png" alt="Logo FloXplore">
+          </a>
+           <h2>${nomPage}</h2>`);
 
 
 // INTRODUCTION
@@ -105,9 +112,11 @@ function afficherThemeNav(theme, container) {
   let themeDescription = theme.description;
   let cardTheme = `
   <li>
+  <div class="themeCard">
   <h2>${themeTitle}</h2>
   <p>${themeDescription}</p>
-  </li>`;
+  </li>
+  </div`;
   themeContainer.insertAdjacentHTML('beforeend', cardTheme)
 };
 

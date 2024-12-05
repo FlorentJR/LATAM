@@ -38,7 +38,7 @@
         {
           "titre": "Rio de Janeiro : Entre plages et samba",
           "date": "5 Novembre 2024",
-          "theme": "Vie Urbaine & Loisirs",
+          "theme": "Nature & Aventure",
           "image": "images/BRESIL.jpg"
         }
       ],
@@ -62,10 +62,6 @@
         {
           "nom": "Faune & Flore",
           "description": "Découvrez la biodiversité incroyable de l'Amérique du Sud."
-        },
-        {
-          "nom": "Vie Urbaine & Loisirs",
-          "description": "Les meilleures villes pour profiter de la culture et des loisirs locaux."
         }
       ],
       "auteurs": [
